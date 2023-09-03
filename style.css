@@ -1,0 +1,89 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.project {
+    background-color: #16a34a;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.judul h2 {
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 700px;
+    width: 800px;
+    padding: 20px 35px;
+    background-color: 354e36;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #182747;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: rgb(90, 90, 90);
+}
+
+.card h5 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.pra {
+    color: white;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.bg {
+    background-color: #16a34a;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    height: 100vh;
+    /* Set a height to center vertically in the viewport */
+}
+
+img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%;
+    /* Ensure the image doesn't exceed the container's height */
+}
